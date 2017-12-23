@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华为登入</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/login页面.css">
+    <link rel="stylesheet" href="zt/iconfont.css">
+</head>
+<body>
+
+<div class="login">
+    <header class="header clearfix"><img src="img/huaweiLogo.png" alt="">
+    <b></b>
+        <span>华为商城</span>
+    </header>
+    <main class="main clearfix">
+        <!--<img src="img/login_default_bg.png" alt="">-->
+        <div class="loginBox clearfix" id="loginBox">
+<div class="loginText">
+            <span class="scan">账号登陆</span>
+            <b></b>
+            <span  class="scan">扫码登陆
+            <img src="img/getqrWeb.png" alt="" class="sel">
+         <img src="img/qrCode-help.png" alt="" class="select">
+
+            </span>
+    <!--<span class="tip">使用华为移动服务APP扫一扫</span>-->
+<!--<span class="tip">若您使用华为手机，请进入“设置”>“华为帐号”扫码登录。</span>-->
+    <div class="e" id="e">
+        <p class="a">使用 </p>
+        <p class="b">华为移动服务APP</p>
+        <p class="c"> 扫一扫</p>
+        <p class="d">若您使用华为手机，请进入“设置”>“华为帐号”扫码登录</p>
+    </div>
+
+</div>
+            <div class="errorUserNameBox">
+                <div class="errorUserName">
+                    <i ></i>
+                    华为帐号限制在4~50 个字符
+                </div>
+            </div>
+            <div class="errorUser">
+                <div class="error">
+                    <i></i>
+                    请输入您的账号
+                </div>
+            </div>
+
+            <div id="inputBox">
+            <div class="inputBox inputBoxTop">
+                <input type="text" data-place="手机/邮件地址" placeholder="手机/邮件地址" id="i-userName"   >
+
+            </div>
+
+            <div class="inputBox ">
+            <input type="password" data-place="密码" placeholder="密码"  id="errorUserT"  >
+        </div>
+                <div class="errorUserT">
+                    <div class="errorT">
+                        <i></i>
+                        请输入密码
+                    </div>
+                </div>
+
+            <div class="VerificationBox">
+
+                <div id="button" class="buttonT"><span>点击按钮进行验证</span>
+                    <div class="sector" id="sector"></div>
+                    <div class="sector-tip" id="sector-tip"></div>
+                    <div class="sector-r"></div>
+                </div>
+                <div class="errorUserZ">
+                    <div class="errorZ">
+                        <i></i>
+                       点击按钮进行验证
+                    </div>
+                </div>
+                <!--<span class="add">验证成功</span>-->
+                <!--<i class="iconfont icon-duihao1"></i>-->
+                <span id="rememberNameSpan">
+		<input type="checkbox" class="checkbox vam" id="remember_name" name="remember_name" tabindex="4" />
+		<label for="remember_name">
+			<i id="remember_name_icon" class="checkBox-icon tick-off-icon marginR6"></i>记住华为帐号
+		</label>
+	</span>
+                <div class="buttonLogin">登录</div>
+                <a href="javascript:;" class="more" id="more"> <div  class="safe" id ='safe'>安全中心</div>
+            更多</a>
+
+                <div class="clearWidth">
+                <a href="https://hwid1.vmall.com/CAS/portal/userRegister/regbyphone.html?reqClientType=26&loginChannel=26000000&countryCode=cn&loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Facaslogin%3Furl%3Dhttps%253A%252F%252Fwww.vmall.com%252Fhuawei%2523cid%253D91190&lang=zh-cn&themeName=red"  >注册账号</a>
+                <b></b>
+                <a href="https://hwid1.vmall.com/CAS/portal/resetPwd/forgetbyid.html?reqClientType=26&loginChannel=26000000&countryCode=cn&loginUrl=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fportal%2Flogin.html&service=https%3A%2F%2Fwww.vmall.com%2Faccount%2Facaslogin%3Furl%3Dhttps%253A%252F%252Fwww.vmall.com%252Fhuawei%2523cid%253D91190&lang=zh-cn&themeName=red"  >忘记密码?</a>
+                </div>
+  <div class="anotherLogin">
+      <i class="leftImg"></i>
+                <div >其他方式登陆</div>
+      <i class="rightImg"></i>
+
+  </div>
+        </div>
+                <div class="loginThird" >
+                    <a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=209207&redirect_uri=https://hwid1.vmall.com/CAS/qq/return&response_type=code&state=11d3f18209e2cb51c50e4bd90e90e02a&scope=get_user_info,add_topic,add_one_blog,add_album,upload_pic,list_album,add_share,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idollist,add_idol,del_ido,get_tenpay_addr" id="qq"></a>
+                    <a href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3D64687c5007fa8cb54355adfc628a43d9" id="pay"></a>
+                    <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx8b6c0245e6c3b038&redirect_uri=https%3A%2F%2Fhwid1.vmall.com%2FCAS%2Fweixin%2Freturn&response_type=code&scope=snsapi_login&state=jrxKFtDKvrR2gSqiuYHH2ZdZCuLP8xXU#wechat_redirect" id="weixin"></a>
+                </div>
+
+    </main>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<!--<script src="js/jquery-1.9.0.js"></script>-->
+<script src="js/animate.js"></script>
+<script src="js/login.js"></script>
+<!--<script type="text/javascript" src="jquery-1.9.0.js"></script>-->
+
+</body>
+</html>

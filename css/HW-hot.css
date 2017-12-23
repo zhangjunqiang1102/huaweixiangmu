@@ -1,0 +1,1264 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-style: normal;
+  font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+small {
+  font-size: 12px;
+}
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover,
+a:active {
+  outline-width: 0;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+}
+img {
+  border-style: none;
+}
+img:not([src]) {
+  display: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+html {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+textarea,
+button,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+audio:not([controls]),
+video:not([controls]) {
+  display: none;
+  height: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+textarea {
+  overflow: auto;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+.clearfix:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+.common li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+.common li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.common li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+.common li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+.common li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+.common li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+.common li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+.common li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html,
+body {
+  width: 100%;
+  background: #EEEEEE;
+  color: #000;
+  /*热销单品*/
+  /*手机*/
+  /*笔记本电脑*/
+  /*精品平板*/
+  /*智能穿戴*/
+  /*智能家居*/
+  /*热销配件*/
+  /*品牌配件*/
+}
+html .nav-heard,
+body .nav-heard {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .nav-heard .con-hot,
+body .nav-heard .con-hot {
+  height: 67px;
+}
+html .nav-heard .con-hot h2,
+body .nav-heard .con-hot h2 {
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  height: 22px;
+  line-height: 22px;
+  padding: 30px 0 15px 0;
+}
+html .nav-heard .con-iphone,
+body .nav-heard .con-iphone {
+  height: 590px;
+}
+html .nav-heard .con-iphone .big-img,
+body .nav-heard .con-iphone .big-img {
+  height: 590px;
+}
+html .nav-heard .con-iphone .big-img .big,
+body .nav-heard .con-iphone .big-img .big {
+  display: block;
+  width: 232px;
+}
+html .nav-heard .con-iphone .big-img .big:hover,
+body .nav-heard .con-iphone .big-img .big:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 10px #c9c9c9;
+}
+html .nav-heard .con-iphone .small-box,
+body .nav-heard .con-iphone .small-box {
+  position: absolute;
+  top: 67px;
+  left: 232px;
+  float: left;
+  width: 968px;
+  height: 600px;
+}
+html .nav-heard .con-iphone .small-box li,
+body .nav-heard .con-iphone .small-box li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .nav-heard .con-iphone .small-box li a,
+body .nav-heard .con-iphone .small-box li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .nav-heard .con-iphone .small-box li a:hover,
+body .nav-heard .con-iphone .small-box li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .nav-heard .con-iphone .small-box li a .type,
+body .nav-heard .con-iphone .small-box li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .nav-heard .con-iphone .small-box li a .name-g,
+body .nav-heard .con-iphone .small-box li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .nav-heard .con-iphone .small-box li a .explain-g,
+body .nav-heard .con-iphone .small-box li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .nav-heard .con-iphone .small-box li a .price-g,
+body .nav-heard .con-iphone .small-box li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .nav-heard .con-iphone .small-box li a .type-show,
+body .nav-heard .con-iphone .small-box li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .phone,
+body .phone {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .phone .nav-phone,
+body .phone .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .phone .nav-phone .tit,
+body .phone .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .phone .nav-phone .con-box,
+body .phone .nav-phone .con-box {
+  margin: 0 0 0 86px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .phone .nav-phone .con-box li,
+body .phone .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .phone .nav-phone .con-box li a,
+body .phone .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .phone .nav-phone .con-box li a:hover,
+body .phone .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .phone .nav-phone .con-box li:hover,
+body .phone .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .phone .nav-phone .more,
+body .phone .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .phone .nav-phone .more a,
+body .phone .nav-phone .more a {
+  color: #666;
+}
+html .phone .nav-phone .more a:hover,
+body .phone .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .phone .con-phone2,
+body .phone .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .phone .con-phone2 li,
+body .phone .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .phone .con-phone2 li a,
+body .phone .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .phone .con-phone2 li a:hover,
+body .phone .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .phone .con-phone2 li a .type,
+body .phone .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .phone .con-phone2 li a .name-g,
+body .phone .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .phone .con-phone2 li a .explain-g,
+body .phone .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .phone .con-phone2 li a .price-g,
+body .phone .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .phone .con-phone2 li a .type-show,
+body .phone .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .phone .con-phone2 li,
+body .phone .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .PC,
+body .PC {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  /*标题栏*/
+  /*内容栏*/
+}
+html .PC .nav-phone,
+body .PC .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .PC .nav-phone .tit,
+body .PC .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .PC .nav-phone .con-box,
+body .PC .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .PC .nav-phone .con-box li,
+body .PC .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .PC .nav-phone .con-box li a,
+body .PC .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .PC .nav-phone .con-box li a:hover,
+body .PC .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .PC .nav-phone .con-box li:hover,
+body .PC .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .PC .nav-phone .more,
+body .PC .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .PC .nav-phone .more a,
+body .PC .nav-phone .more a {
+  color: #666;
+}
+html .PC .nav-phone .more a:hover,
+body .PC .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .PC .con-phone2,
+body .PC .con-phone2 {
+  width: 1212px;
+  height: 358px;
+  overflow: hidden;
+}
+html .PC .con-phone2 li,
+body .PC .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .PC .con-phone2 li a,
+body .PC .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .PC .con-phone2 li a:hover,
+body .PC .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .PC .con-phone2 li a .type,
+body .PC .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .PC .con-phone2 li a .name-g,
+body .PC .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .PC .con-phone2 li a .explain-g,
+body .PC .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .PC .con-phone2 li a .price-g,
+body .PC .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .PC .con-phone2 li a .type-show,
+body .PC .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .PC .con-phone2 li,
+body .PC .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .good-pc,
+body .good-pc {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .good-pc .nav-phone,
+body .good-pc .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .good-pc .nav-phone .tit,
+body .good-pc .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .good-pc .nav-phone .con-box,
+body .good-pc .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .good-pc .nav-phone .con-box li,
+body .good-pc .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .good-pc .nav-phone .con-box li a,
+body .good-pc .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .good-pc .nav-phone .con-box li a:hover,
+body .good-pc .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .good-pc .nav-phone .con-box li:hover,
+body .good-pc .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .good-pc .nav-phone .more,
+body .good-pc .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .good-pc .nav-phone .more a,
+body .good-pc .nav-phone .more a {
+  color: #666;
+}
+html .good-pc .nav-phone .more a:hover,
+body .good-pc .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .good-pc .con-phone2,
+body .good-pc .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .good-pc .con-phone2 li,
+body .good-pc .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .good-pc .con-phone2 li a,
+body .good-pc .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .good-pc .con-phone2 li a:hover,
+body .good-pc .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .good-pc .con-phone2 li a .type,
+body .good-pc .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .good-pc .con-phone2 li a .name-g,
+body .good-pc .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .good-pc .con-phone2 li a .explain-g,
+body .good-pc .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .good-pc .con-phone2 li a .price-g,
+body .good-pc .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .good-pc .con-phone2 li a .type-show,
+body .good-pc .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .good-pc .con-phone2 li,
+body .good-pc .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .watch,
+body .watch {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .watch .nav-phone,
+body .watch .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .watch .nav-phone .tit,
+body .watch .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .watch .nav-phone .con-box,
+body .watch .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .watch .nav-phone .con-box li,
+body .watch .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .watch .nav-phone .con-box li a,
+body .watch .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .watch .nav-phone .con-box li a:hover,
+body .watch .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .watch .nav-phone .con-box li:hover,
+body .watch .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .watch .nav-phone .more,
+body .watch .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .watch .nav-phone .more a,
+body .watch .nav-phone .more a {
+  color: #666;
+}
+html .watch .nav-phone .more a:hover,
+body .watch .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .watch .con-phone2,
+body .watch .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .watch .con-phone2 li,
+body .watch .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .watch .con-phone2 li a,
+body .watch .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .watch .con-phone2 li a:hover,
+body .watch .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .watch .con-phone2 li a .type,
+body .watch .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .watch .con-phone2 li a .name-g,
+body .watch .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .watch .con-phone2 li a .explain-g,
+body .watch .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .watch .con-phone2 li a .price-g,
+body .watch .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .watch .con-phone2 li a .type-show,
+body .watch .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .watch .con-phone2 li,
+body .watch .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .home,
+body .home {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .home .nav-phone,
+body .home .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .home .nav-phone .tit,
+body .home .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .home .nav-phone .con-box,
+body .home .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .home .nav-phone .con-box li,
+body .home .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .home .nav-phone .con-box li a,
+body .home .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .home .nav-phone .con-box li a:hover,
+body .home .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .home .nav-phone .con-box li:hover,
+body .home .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .home .nav-phone .more,
+body .home .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .home .nav-phone .more a,
+body .home .nav-phone .more a {
+  color: #666;
+}
+html .home .nav-phone .more a:hover,
+body .home .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .home .con-phone2,
+body .home .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .home .con-phone2 li,
+body .home .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .home .con-phone2 li a,
+body .home .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .home .con-phone2 li a:hover,
+body .home .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .home .con-phone2 li a .type,
+body .home .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .home .con-phone2 li a .name-g,
+body .home .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .home .con-phone2 li a .explain-g,
+body .home .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .home .con-phone2 li a .price-g,
+body .home .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .home .con-phone2 li a .type-show,
+body .home .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .home .con-phone2 li,
+body .home .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .home .con-phone2 .con-img,
+body .home .con-phone2 .con-img {
+  width: 592px;
+  height: 346px;
+}
+html .parts,
+body .parts {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .parts .nav-phone,
+body .parts .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .parts .nav-phone .tit,
+body .parts .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .parts .nav-phone .con-box,
+body .parts .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .parts .nav-phone .con-box li,
+body .parts .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .parts .nav-phone .con-box li a,
+body .parts .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .parts .nav-phone .con-box li a:hover,
+body .parts .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .parts .nav-phone .con-box li:hover,
+body .parts .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .parts .nav-phone .more,
+body .parts .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .parts .nav-phone .more a,
+body .parts .nav-phone .more a {
+  color: #666;
+}
+html .parts .nav-phone .more a:hover,
+body .parts .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .parts .con-phone2,
+body .parts .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .parts .con-phone2 li,
+body .parts .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .parts .con-phone2 li a,
+body .parts .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .parts .con-phone2 li a:hover,
+body .parts .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .parts .con-phone2 li a .type,
+body .parts .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .parts .con-phone2 li a .name-g,
+body .parts .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .parts .con-phone2 li a .explain-g,
+body .parts .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .parts .con-phone2 li a .price-g,
+body .parts .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .parts .con-phone2 li a .type-show,
+body .parts .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .parts .con-phone2 li,
+body .parts .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .parts .con-phone2 .con-img,
+body .parts .con-phone2 .con-img {
+  width: 592px;
+  height: 346px;
+}
+html .brand,
+body .brand {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .brand .nav-phone,
+body .brand .nav-phone {
+  position: relative;
+  margin: 22px 0 12px;
+  height: 38px;
+  overflow: hidden;
+}
+html .brand .nav-phone .tit,
+body .brand .nav-phone .tit {
+  float: left;
+  font-weight: normal;
+  font-size: 22px;
+  color: #3a3a3a;
+  line-height: 37px;
+}
+html .brand .nav-phone .con-box,
+body .brand .nav-phone .con-box {
+  padding: 0 0 0 28px;
+  overflow: hidden;
+  line-height: 37px;
+}
+html .brand .nav-phone .con-box li,
+body .brand .nav-phone .con-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+html .brand .nav-phone .con-box li a,
+body .brand .nav-phone .con-box li a {
+  color: #a4a4a4;
+}
+html .brand .nav-phone .con-box li a:hover,
+body .brand .nav-phone .con-box li a:hover {
+  color: #cc0e11;
+}
+html .brand .nav-phone .con-box li:hover,
+body .brand .nav-phone .con-box li:hover {
+  border-bottom: 2px solid #cc0e11;
+}
+html .brand .nav-phone .more,
+body .brand .nav-phone .more {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+html .brand .nav-phone .more a,
+body .brand .nav-phone .more a {
+  color: #666;
+}
+html .brand .nav-phone .more a:hover,
+body .brand .nav-phone .more a:hover {
+  color: #cc0e11;
+}
+html .brand .con-phone2,
+body .brand .con-phone2 {
+  width: 1212px;
+  height: 716px;
+  overflow: hidden;
+}
+html .brand .con-phone2 li,
+body .brand .con-phone2 li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+html .brand .con-phone2 li a,
+body .brand .con-phone2 li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+html .brand .con-phone2 li a:hover,
+body .brand .con-phone2 li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+html .brand .con-phone2 li a .type,
+body .brand .con-phone2 li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+html .brand .con-phone2 li a .name-g,
+body .brand .con-phone2 li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+html .brand .con-phone2 li a .explain-g,
+body .brand .con-phone2 li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+html .brand .con-phone2 li a .price-g,
+body .brand .con-phone2 li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+html .brand .con-phone2 li a .type-show,
+body .brand .con-phone2 li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}
+html .brand .con-phone2 li,
+body .brand .con-phone2 li {
+  width: 291px;
+  height: 346px;
+  margin: 0 10px 10px 0;
+}
+html .brand .con-phone2 .con-img,
+body .brand .con-phone2 .con-img {
+  width: 592px;
+  height: 346px;
+}

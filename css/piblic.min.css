@@ -1,0 +1,45 @@
+.common li {
+  float: left;
+  margin: 0 0 10px 10px;
+  width: 232px;
+  height: 290px;
+}
+.common li a {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.common li a:hover {
+  box-shadow: 0 10px 10px #c9c9c9;
+  transform: translateY(-1px);
+}
+.common li a .type {
+  margin-top: 30px;
+  width: 134px;
+  height: 134px;
+}
+.common li a .name-g {
+  margin-top: 27px;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+.common li a .explain-g {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
+}
+.common li a .price-g {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cc0e11;
+}
+.common li a .type-show {
+  position: absolute;
+  top: 130px;
+  right: 35px;
+  display: block;
+}

@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    background:#f7f7f7;
+    width: 100%;
+    /*width: 1333px;*/
+}
+.header{
+
+    height: 27px;
+    margin: 20px 20px 20px 170px ;
+}
+.header img{
+    float: left;
+    width: 167px;
+    height: 43px;
+   padding-right: 10px;
+    margin-top: -10px;
+}
+.header b{
+    display: block;
+    height: 20px;
+    width: 2px;
+    font-size: 18px;
+    margin-top: 5px;
+    float: left;
+    background: #ccc;
+    margin-bottom:100px ;
+}
+
+.header span{
+    font-size: 18px;
+    /*margin-top: -1px;*/
+    float: left;
+    margin-left: 18px;
+    color: #333333;
+    margin-top: 3px
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 590px;
+    /*text-align: center;*/
+    background: url("../img/login_default_bg.png") no-repeat center;
+    background-color: #081638;
+}
+main .loginBox{
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+    height: 530px;
+    width: 380px;
+    background: #ffffff;
+    position: absolute;
+    top:32px;
+    right: 100px;
+
+}
+.loginBox b{
+    position: relative;
+    display: block;
+    height: 20px;
+    width: 1px;
+    font-size: 18px;
+    margin: 20px;
+    float: left;
+    background: #ccc;
+   /*padding-top: 10px;*/
+}
+
+.loginBox span {
+    z-index: 300;
+    display: block;
+font-size: 20px;
+color: #333333;
+font-weight: 500;
+width: 169px;
+/*display: inline-block;*/
+text-align: center;
+vertical-align: middle;
+margin: 20px  0 50px 0;
+float: left;
+cursor: pointer;
+
+}
+.loginBox  .sel{
+    width: 100%;
+    height: 100%;
+    display: none;
+    border: 1px solid #ccc;
+    position: relative;
+    top:100px;
+    left: -100px;
+}
+.loginBox .select{
+position: absolute;
+    left: 230px;
+    top:125px;
+    opacity: 0;
+}
+.loginBox .tip{
+    font-size: 14px;
+}
+/*.loginText .scan{*/
+    /*color: #B40707;*/
+/*}*/
+
+.loginText .scan:hover {
+    color: #B40707;
+}
+
+.loginText .e{
+    display: none;
+}
+.loginText .e p{
+
+    font-size: 13px;
+
+}
+.loginText .e .a{
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+.loginText .e .b{
+    position: absolute;
+    bottom: 120px;
+    left: 128px;
+    color: #007dff
+}
+.loginText .e .c{
+    position: absolute;
+    bottom: 120px;
+    left: 232px;
+}
+.loginText .e .d {
+    position: absolute;
+    bottom: 100px;
+    left: 12px;
+}
+
+.errorUserNameBox {
+    width: 328px;
+    height: 15px;
+}
+
+.errorUserName {
+    font-size: 12px;
+    color: #ff3320;
+    line-height: 1.3;
+    min-height: 15px;
+    display: none;
+}
+
+.errorUserName i {
+    width: 13px;
+    height: 13px;
+    background: url('https://hwid1.vmallres.com/CAS/up/rss_14/css/portal/vmall_rss/loginEMUIV6/img/btn_errorInfo.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+.errorUser {
+    width: 328px;
+    height: 15px;
+}
+
+.error  {
+    font-size: 12px;
+    color: #ff3320;
+    line-height: 1.3;
+    min-height: 15px;
+    display: none;
+}
+
+.error  i {
+    width: 13px;
+    height: 13px;
+    background: url('https://hwid1.vmallres.com/CAS/up/rss_14/css/portal/vmall_rss/loginEMUIV6/img/btn_errorInfo.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+/*.inputBox input {*/
+    /*display: block;*/
+    /*width: 328px;*/
+    /*line-height: 46px;*/
+    /*height: 46px;*/
+    /*font-size: 14px;*/
+    /*background: none;*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #ddd*/
+/*}*/
+#inputBox .error-underline {
+    border-bottom: 1px solid rgba(255, 51, 32, 0.5);
+}
+#errorUserT .error-underline {
+    border-bottom: 1px solid rgba(255, 51, 32, 0.5);
+}
+  .inputBox{
+       /*position: relative;*/
+      margin: 0 18px;
+   }
+.errorUserT {
+    position:relative;
+    width: 328px;
+    height: 15px;
+}
+
+.errorT  {
+    position: absolute;
+    top:-100px;
+    left: 30px;
+    font-size: 12px;
+    color: #ff3320;
+    line-height: 1.3;
+    min-height: 15px;
+    display: none;
+}
+
+.errorT  i {
+    position: absolute;
+    top:0px;
+    left: -20px;
+    width: 13px;
+    height: 13px;
+    background: url('https://hwid1.vmallres.com/CAS/up/rss_14/css/portal/vmall_rss/loginEMUIV6/img/btn_errorInfo.png') no-repeat;
+    background-size: cover;
+    display:  inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.errorUserZ {
+    position:relative;
+    width: 328px;
+    height: 15px;
+}
+
+.errorZ {
+    position: absolute;
+    top:-160px;
+    left: 30px;
+    font-size: 12px;
+    color: #ff3320;
+    line-height: 1.3;
+    min-height: 15px;
+    display: none;
+}
+
+.errorZ i {
+    position: absolute;
+    top:0px;
+    left: -20px;
+    width: 13px;
+    height: 13px;
+    background: url('https://hwid1.vmallres.com/CAS/up/rss_14/css/portal/vmall_rss/loginEMUIV6/img/btn_errorInfo.png') no-repeat;
+    background-size: cover;
+    display:  inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+.inputBox input{
+   display: block;
+    width: 328px;
+    line-height: 46px;
+    height: 46px;
+    font-size: 14px;
+    background:none;
+    border:none;
+    border-bottom:1px solid #ddd
+
+}
+/*.inputBox .placeholderlike{*/
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left: 0;*/
+    /*z-index: 100;*/
+    /*color: #ccc;*/
+    /*cursor: text;*/
+/*}*/
+#button {
+display: block;
+ position: relative;
+    width: 328px;
+    line-height: 42px;
+    height: 42px;
+    border: 1px solid #cccccc;
+    z-index: 100;
+
+   /*margin-top: -3px;*/
+    margin-left: 17px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    background: -webkit-gradient(linear, 0 0, 0 300%, from(#ffffff), to(#cccccc));
+
+}
+
+/*#button :hover{*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*width: 328px;*/
+    /*line-height: 42px;*/
+    /*height: 42px;*/
+    /*border: 1px solid #cccccc;*/
+    /*z-index: 100;*/
+/*}*/
+#button.aa{
+    /*display: block;*/
+    /*position: relative;*/
+    /*width: 328px;*/
+    /*line-height: 42px;*/
+    /*height: 42px;*/
+    /*border: 1px solid #18A452;*/
+    /*z-index: 100;*/
+
+    display: block;
+    position: relative;
+    width: 328px;
+    line-height: 42px;
+    height: 42px;
+    border: 1px solid #18A452;
+    z-index: 200;
+
+    margin-top: 10px;
+    margin-left: 17px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    /*background: #CCCCCC ;*/
+    /*opacity:0.1;*/
+    transition: 0.5s;
+}
+
+.add{
+    display: block;
+    position: absolute;
+    top:192px;
+    left: 43px;
+    color: #18A452;
+    font-size: 14px;
+    /*padding-left: 12px;*/
+}
+#button span{
+    position: absolute;
+    top:-20px;
+    left: 15px;
+    cursor: pointer;
+    color:#666;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.sector-tip{
+    /*display: none;*/
+    opacity: 0;
+    position: absolute;
+    top:4px;
+    left:4px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px #2488FF;
+    /*background-color: #7DB4FF;*/
+    background-image: linear-gradient(65deg, rgba(0,0,0,0) 50%,#c5daf9 50%),linear-gradient(65deg, #c5daf9 50%,rgba(0,0,0,0) 50%);
+
+}
+#button .sector{
+   opacity: 0;
+    z-index: 2;
+    position: absolute;
+    top:4px;
+    left:4px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px #2488FF;
+    background-color: #7DB4FF;
+    background-image: linear-gradient(115deg, rgba(0,0,0,0) 50%,#c5daf9 50%),linear-gradient(65deg, #c5daf9 50%,rgba(0,0,0,0) 50%);
+    transition: 1s;
+    /*animation: d .5s infinite ;*/
+}
+.sector-r{
+    z-index: 2;
+    position: absolute;
+    top:14px;
+    left:14px;
+    width: 12px;
+    height: 12px;
+    background: #b1babe;
+    /*white-space: nowrap;*/
+    border-radius: 50%;
+}
+@keyframes d {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform:rotate(-360deg)
+    }
+}
+
+/*.checkBox  {*/
+    /*position: absolute;*/
+    /*bottom:250px;*/
+    /*left: 19px;*/
+    /*display: block;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*opacity:0;*/
+
+    /*background: white;*/
+   /*!*-webkit-appearance:none;*!*/
+    /*cursor: pointer;*/
+/*}*/
+/*#checkBox {*/
+    /*position: absolute;*/
+    /*bottom:250px;*/
+/*left: 19px;*/
+    /*border: 1px solid #ccc;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+/*!*background: red;*!*/
+    /*cursor: pointer;*/
+/*}*/
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+.tick-on-icon{
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/tick-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-right: 4px;
+
+}
+.tick-off-icon{
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/tick-off.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-right: 4px;
+
+}
+label{
+    /*display: block;*/
+    font-size: 12px;
+    position: absolute;
+    bottom:260px;
+    left: 15px;
+}
+.buttonLogin{
+    display: block;
+    background-color: #B40707;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #B40707;
+    color: #fff;
+    width: 328px;
+    height: 44px;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    /*background-image: none;*/
+    cursor: pointer;
+    border-radius: 26px;
+    /*text-align: center;*/
+    margin :37px 0 0 18px;
+}
+
+.VerificationBox .more{
+    display: block;
+    color: #007dff;
+    cursor: pointer;
+    width: 328px;
+    height: 48px;
+   padding-top: 20px;
+    padding-left: 318px;
+}
+
+.VerificationBox #more .safe{
+    width: 80px;
+    display: none;
+    position: absolute;
+    bottom:115px;
+    right: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+ border-radius: 15%;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    ;
+}
+  .clearWidth{
+     width: 328px;
+     height: 20px;
+     position: relative;
+      top:-25px;
+    padding: 0 160px 0 90px;
+      text-align: center;
+ }
+.clearWidth a{
+    display: block;
+    float: left;
+    color: #007dff;
+    cursor: pointer;
+    padding-left: 30px;
+
+}
+.VerificationBox b{
+    position:absolute;
+    top:-18px;
+    left: 162px;
+    height: 13px;
+    display: block;
+    width: 1px;
+}
+.anotherLogin{
+    /*width: 328px;*/
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+.anotherLogin div{
+    color: #cccccc;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 190px;
+    display: inline-block;
+    z-index: 1;
+    background: #ffffff;
+    padding: 0 150px;
+    line-height: 1.5;
+
+    /*top:50%;*/
+}
+.leftImg{
+
+    height: 1px;
+    position: absolute;
+    top:50%;
+    width: 94px;
+    background-size: cover;
+    background: url("../img/thirdLine.png") no-repeat;
+
+}
+.rightImg{
+
+    height: 1px;
+    position: absolute;
+    top:50%;
+    left: 280px;
+    width: 94px;
+    background-size: cover;
+    background: url("../img/thirdLine-reverse.png") no-repeat;;
+
+}
+.loginThird {
+    position: absolute;
+    top:90%;
+    left: 31%;
+    /*margin-bottom: -100px;*/
+     /*margin-right :50px;*/
+    width: 328px;
+    /*text-align: center;*/
+
+}
+.loginThird #qq{
+     background: url(../img/third_login.png) no-repeat;
+
+     width: 42px;
+     height: 42px;
+     display: inline-block;
+
+padding-left: 15px;
+
+     background-position: -72px -9px;
+ }
+
+  #qq:hover{
+    background-position: -72px -55px;
+}
+.loginThird #pay{
+    background: url(../img/third_login.png) no-repeat;
+
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+
+    padding-left: 15px;
+    /*padding-left: 20px;*/
+    background-position: -132px -9px;
+}
+ #pay:hover{
+    background-position: -132px -55px;
+}
+.loginThird #weixin{
+    background: url(../img/third_login.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    background-position: -12px -9px;
+}
+  #weixin:hover{
+    background-position: -12px -55px;
+}

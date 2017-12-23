@@ -1,0 +1,447 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-style: normal;
+  font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+small {
+  font-size: 12px;
+}
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover,
+a:active {
+  outline-width: 0;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+}
+img {
+  border-style: none;
+}
+img:not([src]) {
+  display: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+html {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+textarea,
+button,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+audio:not([controls]),
+video:not([controls]) {
+  display: none;
+  height: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+textarea {
+  overflow: auto;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+.clearfix:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+}
+/*--big BANNER--*/
+.bigBannerRender {
+  margin-top:-20px;
+  position: relative;
+}
+.bigBannerRender .container {
+  width: 100%;
+  position: relative;
+  margin: 20px auto;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+}
+.bigBannerRender .container .wrapper {
+  position: relative;
+  height: 450px;
+}
+.bigBannerRender .container .wrapper .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/4.jpg") 50% 0 no-repeat;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 0;
+}
+.bigBannerRender .container .wrapper .slide a {
+  width: 100%;
+  height: 450px;
+  display: block;
+}
+.bigBannerRender .container .focusBox {
+  position: relative;
+  top: -40px;
+  z-index: 999;
+  display: inline-block;
+  padding: 4px 8px;
+  height: 12px;
+}
+.bigBannerRender .container .focusBox li {
+  float: left;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  cursor: pointer;
+}
+.bigBannerRender .container .focusBox li.last {
+  margin-right: 0;
+}
+.bigBannerRender .container .focusBox li.select {
+  background: #fff;
+}
+.bigBannerRender .bg {
+  width: 240px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 74.5px;
+  z-index: 1;
+}
+.bigBannerRender .bg .category-list .c-list {
+  box-sizing: border-box;
+  width: 100%;
+  height: 75px;
+  padding: 10px 16px;
+  text-align: left;
+  position: relative;
+}
+.bigBannerRender .bg .category-list .c-list h3 {
+  text-align: left;
+  font-weight: normal;
+  padding-bottom: 2px;
+}
+.bigBannerRender .bg .category-list .c-list h3 a {
+  font-size: 16px;
+  color: #fff;
+}
+.bigBannerRender .bg .category-list .c-list a {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.bigBannerRender .bg .category-list .c-list a:hover {
+  color: #fff;
+}
+.bigBannerRender .bg .category-list .c-list span {
+  display: inline-block;
+  background: url("../img/icon-common.png") -9px -214px no-repeat;
+  width: 7px;
+  height: 13px;
+  position: absolute;
+  top: 50%;
+  margin-top: -6.5px;
+  right: 10px;
+}
+.bigBannerRender .bg .category-list .c-list:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.bigBannerRender .bg .category-list .c-list:hover span {
+  background: url("../img/icon-common.png") -2px -214px no-repeat;
+}
+.bigBannerRender .bg .category-detail {
+  display: none;
+  position: absolute;
+  left: 240px;
+  width: 648px;
+  height: 448px;
+  background-color: #FFF;
+  top: 0;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+.bigBannerRender .bg .category-detail .p-title {
+  padding: 20px 28px 20px 40px;
+  width: 580px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #ca151d;
+}
+.bigBannerRender .bg .category-detail .p-list {
+  width: 580px;
+  height: 105px;
+  padding: 36px 28px 0 40px;
+  border-top: 1px solid #eaeaea;
+}
+.bigBannerRender .bg .category-detail .p-list li {
+  float: left;
+  padding-bottom: 36px;
+  vertical-align: top;
+  padding-right: 30px;
+  height: 14px;
+}
+.bigBannerRender .bg .category-detail .p-list li a {
+  font-size: 14px;
+  color: #3a3a3a;
+}
+.bigBannerRender .bg .category-detail .p-list li a:hover {
+  color: #ca151d;
+}
+.bigBannerRender .bg .category-detail .p-list li:nth-last-child(1) {
+  padding-right: 0;
+}
+.bigBannerRender .bg .category-detail .p-pic {
+  width: 648px;
+  height: 236px;
+}
+.bigBannerRender .bg .category-detail .p-pic ul {
+  width: 100%;
+  height: 100%;
+}
+.bigBannerRender .bg .category-detail .p-pic ul li {
+  float: left;
+  box-sizing: border-box;
+  width: 162px;
+  height: 236px;
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+}
+.bigBannerRender .bg .category-detail .p-pic ul li:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
+  transform: translate3d(0, -2px, 0);
+  border-top: 0;
+}
+.bigBannerRender .bg .category-detail .p-pic ul li img {
+  margin-top: 26px;
+  height: 118px;
+  width: 118px;
+}
+.bigBannerRender .bg .category-detail .p-pic ul li h3 {
+  margin-top: 0;
+  padding-top: 0;
+  display: inline-block;
+  height: 43px;
+  line-height: 59px;
+  color: #3a3a3a;
+}
+.bigBannerRender .bg .category-detail .p-pic ul li p {
+  color: #cc0e11;
+}
+.bigBannerRender .bg .p-select {
+  display: block;
+}
+/*small banner*/
+.smallBanner .s-container {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+.smallBanner .s-container .s-wrapper {
+  height: 120px;
+}
+.smallBanner .s-container .s-wrapper .s-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 0;
+}
+.smallBanner .s-container .s-wrapper .s-slide a {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+.smallBanner .s-container .s-wrapper .s-slide a img {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+.smallBanner .s-container .s-focus {
+  position: absolute;
+  height: 13px;
+  text-align: right;
+  bottom: 10px;
+  left: 50%;
+  width: 250px;
+  margin-left: 228px;
+  z-index: 5;
+  cursor: default;
+}
+.smallBanner .s-container .s-focus li {
+  display: inline-block;
+  margin-left: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #c5c5c5;
+  opacity: .2;
+}
+.smallBanner .s-container .s-focus li.select {
+  background: #ce2a32;
+}

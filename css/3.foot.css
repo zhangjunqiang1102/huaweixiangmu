@@ -1,0 +1,315 @@
+.hr-12{
+    height: 12px;
+}
+.home-promo-list{
+    list-style-type: none;
+    margin: 0 65px;
+    padding: 0;
+
+}
+.home-promo-list li{
+    margin: 0 6px;
+    float: left;
+    width: 291px;
+    height: 160px;
+}
+.home-promo-list a{
+    display: block;
+    height: 160px;
+}
+.home-promo-list img{
+    width: 291px;
+    height: 160px;
+    border: 0 none;
+}
+
+.slogan-container, .slogan-container, .footer-container {
+    border-top: 1px solid #EEE;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.service-container, .slogan-container, .footer-container {
+    background: #f0f0f0;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.slogan {
+    padding: 46px 0 46px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.slogan li {
+    float: left;
+    line-height: 47px;
+    font-size: 18px;
+    color: #3a3a3a;
+    height: 47px;
+    width: 300px;
+    text-align: left;
+
+}
+
+.slogan li i {
+    background: url("../img/icon-common.png") no-repeat center center;
+}
+
+.slogan li i {
+    display: inline-block;
+    line-height: 47px;
+    height: 47px;
+    width: 47px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background-position: 0 -151px;
+}
+
+.service {
+    border-top: 1px solid #e8e8e8;
+    padding: 26px 0 18px;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.service-1 {
+    width: 944px;
+    min-height: 164px;
+    margin-top: 2px;
+    border-right: 1px solid #ebebeb;
+}
+
+
+.service .service-l dl {
+    width: 16.66667%;
+}
+
+.service dt {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.service dt .line {
+    background: #a8a8a8;
+    width: 22px;
+    height: 2px;
+    margin: 2px 0 12px 0 !important;
+}
+
+.service dt .title {
+    font-size: 14px !important;
+    padding-bottom: 12px;
+    color: #3a3a3a;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.5 !important;
+    margin-bottom: 0 !important;
+}
+
+.service dd li {
+    line-height: 24px;
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+}
+
+.service dd a {
+    color: #666;
+}
+
+.relative {
+    position: relative;
+}
+
+.service dt .button {
+    position: absolute;
+    left: 60px;
+    bottom: 12px;
+}
+
+.service dt .btn.disabled {
+    cursor: not-allowed;
+    background: #CCC;
+}
+
+.service dt .btn {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #b3b3b3;
+    border-radius: 3px;
+    margin-right: 2px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 12px;
+}
+
+.service dl {
+    float: left;
+display: block;
+}
+
+.service dd li {
+    line-height: 24px;
+}
+
+.service dl .s6 dd {
+    height: 115px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.service dl .s6 dd ol {
+    width: 158px;
+    float: left;
+}
+
+.service dl .s6 dd li {
+    width: 158px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.service .service-r .s7 .title {
+    font-size: 24px !important;
+    padding: 0;
+    line-height: 24px;
+}
+
+.service-r {
+    width: 210px;
+    min-height: 164px;
+    margin-top: 2px;
+    padding-left: 40px;
+}
+
+.btn-line-primary i {
+    background: url("../img/icon-common.png") no-repeat;
+}
+
+.btn-line-primary i {
+    background-position: -101px -23px;
+}
+
+.service-btn {
+    display: inline-block;
+    width: 161px;
+    height: 35px;
+    padding: 0;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #900 !important;
+    cursor: pointer;
+    transition: all .4s;
+    border-radius: 5px;
+}
+
+.service-btn i {
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.footer {
+    padding: 26px 0 34px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer-container {
+    background: #e6e6e6;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.footer-warrant-area {
+    text-align: left;
+    color: #a4a4a4;
+    line-height: 20px;
+
+}
+
+.footer-warrant-area .footer-warrant-logo {
+    width: 79px;
+    height: 16px;
+    padding: 20px 38px 0 0;
+}
+.f1{
+    float: left;
+}
+.footer-warrant-area .footer-warrant-logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer-warrant-area a {
+    color: #a4a4a4;
+}
+
+.footer-warrant-area .footer-warrant-logo img {
+    vertical-align: top;
+    width: 79px;
+    height: 16px;
+}
+
+.fl, .left, .left-area {
+    float: left;
+}
+
+.footer-warrant-area a {
+    color: #a4a4a4;
+}
+
+.footer-warrant-area em {
+    padding-right: 3px;
+    margin-left: 3px;
+}
+
+em {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-warrant-area .footer-warrant-img {
+    padding: 15px 0 0;
+}
+.footer-warrant-area .footer-warrant-img a {
+    display: block;
+    width: 70px;
+    margin-left: 4px;
+    height: 24px;
+}
+
+.footer-warrant-area a {
+    color: #a4a4a4;
+}
+
+
+
+
+
+
+

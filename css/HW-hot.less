@@ -1,0 +1,602 @@
+@import "reset";
+@import "public";
+
+html, body {
+  width: 100%;
+  background: #EEEEEE;
+  color: #000;
+  /*热销单品*/
+  .nav-heard {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .con-hot {
+      height: 67px;
+
+      h2 {
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        height: 22px;
+        line-height: 22px;
+        padding: 30px 0 15px 0;
+      }
+    }
+
+    .con-iphone {
+      height: 590px;
+
+      .big-img {
+        height: 590px;
+
+        .big {
+          display: block;
+          width: 232px;
+          &:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 10px #c9c9c9;
+          }
+        }
+      }
+      .small-box {
+        position: absolute;
+        top: 67px;
+        left: 232px;
+        float: left;
+        width: 968px;
+        height: 600px;
+
+        .common;
+      }
+    }
+  }
+  /*手机*/
+  .phone {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        margin: 0 0 0 86px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+      @w: 291px;
+      @h: 346px;
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+    }
+  }
+  /*笔记本电脑*/
+  .PC {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*标题栏*/
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+    /*内容栏*/
+    .con-phone2 {
+      width: 1212px;
+      height: 358px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+    }
+  }
+  /*精品平板*/
+  .good-pc {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+      @w: 291px;
+      @h: 346px;
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+    }
+  }
+  /*智能穿戴*/
+  .watch {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+    }
+  }
+  /*智能家居*/
+  .home {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+      .con-img {
+        width: 592px;
+        height: 346px;
+      }
+    }
+  }
+  /*热销配件*/
+  .parts {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+      .con-img {
+        width: 592px;
+        height: 346px;
+      }
+    }
+  }
+  /*品牌配件*/
+  .brand {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .nav-phone {
+      position: relative;
+      margin: 22px 0 12px;
+      height: 38px;
+      overflow: hidden;
+
+      .tit {
+        float: left;
+        font-weight: normal;
+        font-size: 22px;
+        color: #3a3a3a;
+        line-height: 37px;
+      }
+
+      .con-box {
+        padding: 0 0 0 28px;
+        overflow: hidden;
+        line-height: 37px;
+
+        li {
+          float: left;
+          margin: 0 20px 0 0;
+          font-weight: normal;
+          font-size: 16px;
+
+          a {
+            color: #a4a4a4;
+            &:hover {
+              color: #cc0e11;
+            }
+          }
+          &:hover {
+            border-bottom: 2px solid #cc0e11;
+          }
+
+        }
+      }
+
+      .more {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+        font-weight: normal;
+        font-size: 18px;
+
+        a {
+          color: #666;
+
+          &:hover {
+            color: #cc0e11;
+          }
+        }
+      }
+    }
+
+    .con-phone2 {
+
+      width: 1212px;
+      height: 716px;
+      overflow: hidden;
+
+      .common;
+      li {
+        width: 291px;
+        height: 346px;
+        margin: 0 10px 10px 0;
+
+      }
+      .con-img {
+        width: 592px;
+        height: 346px;
+      }
+    }
+  }
+}
